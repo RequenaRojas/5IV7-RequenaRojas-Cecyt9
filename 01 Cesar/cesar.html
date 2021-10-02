@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Cesar</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <center>
+        <h1 style="padding-bottom: 3rem; padding-top: 5rem; font-size: 3rem;">Cifrado Cesar</h1>
+        <label></label>
+        <input type="number" id="desplazamiento" min="1" max="26"> 
+        <input id="cadena" cols="30" rows="10" style="width: 5rem; height: 2rem;"></input>
+        <br>
+        <input type="button" value="Cifrar" onclick="cifrar()" >
+        <input type="button" value="Descifrar" onclick="descifrar()" >
+        <br>
+        <div id="resultado" ></div>
+    </center>
+    
+</body>
+<script src="js/cesar.js" ></script>
+</html>
