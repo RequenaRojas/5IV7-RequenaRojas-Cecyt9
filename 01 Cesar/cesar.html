@@ -11,8 +11,13 @@
     
     <center>
         <h1 style="padding-bottom: 3rem; padding-top: 5rem; font-size: 3rem;">Cifrado Cesar</h1>
+        <label>Desplazamiento: </label>
         <input type="number" id="desplazamiento" min="1" max="26"> 
-        <input id="cadena" cols="30" rows="10" style="width: 5rem; height: 2rem;">
+        
+        <div style="padding-top: 2rem; padding-bottom: 2rem;">
+            <label>Mensaje: </label>
+            <input id="cadena" cols="30" rows="10" style="width: 10rem; height: 5rem;">
+        </div>
         <br>
         <input type="button" value="Cifrar" onclick="cifrar()" >
         <input type="button" value="Descifrar" onclick="descifrar()" >
